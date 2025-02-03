@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title> Calculateur surface corporelle </title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	<h1> Calculateur surface corporelle</h1>
+	<p>La SC est une estimation de la superficie de la peau d’une personne. Elle est exprimée en mètres carrés (m²).</p>
+	<p>L’examen de la surface corporelle peut fournir des informations utiles sur les dépôts de graisse sur le corps d’un patient, et elle est parfois comparée à l’indice de masse corporelle (IMC).</p>
+		<div class="container">
+			<h2 class="title">Calculateur surface corporelle</h2>
+			<div class="input-container">
+				<label for="taille">taille (cm) </label>
+				<input type="number" id="taille" >
+				<br>
+			</div>
+			<div class="input-container">
+				<label for="poids">poids (kg) </label>
+				<input type="number" id="poids" >
+				<br>
+			</div>
+			
+			<button onclick="calculsurfacecorporelle()">surface corporelle </button>
+			
+			<h2 id="result"></h2>
+		</div>
+	
+		<script src="script2.js"></script>
+	</body>
+</html>

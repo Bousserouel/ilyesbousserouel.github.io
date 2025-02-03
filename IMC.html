@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title> Calculateur IMC </title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<h1> Calcul de l'indice de masse corporelle (IMC)</h1>
+			<p>L'indice de masse corporelle (IMC) est une grandeur qui permet d'estimer la corpulence d’une personne.</p>
+			<p>L'OMS considère l'IMC comme la norme pour évaluer les risques liés au surpoids chez l'adulte.</p>
+			
+		</header>
+		<div class="container">
+			<h2 class="title">Calculateur IMC</h2>
+			<div class="input-container">
+				<label for="Taille">Taille (cm) </label>
+				<input type="number" id="taille" >
+				<br>
+			</div>
+			<div class="input-container">
+				<label for="Poids">Poids (kg) </label>
+				<input type="number" id="poids" >
+				<br>
+			</div>
+			
+			<button onclick="calculIMC()">calculer IMC</button>
+			
+			<h2 id="result"></h2>
+		</div>
+	
+		<script src="script.js"></script>
+	</body>
+</html>
